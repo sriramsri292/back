@@ -2,7 +2,7 @@ const express = require("express");
 const HTTP_SERVER = express();
 
 
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 require("dotenv").config();
 
 HTTP_SERVER.listen(PORT, "0.0.0.0", (err) => {
